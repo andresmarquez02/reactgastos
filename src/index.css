@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #eed3d700;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 21px;
+  /* Each alert has its own width */
+  float: left;
+  clear: left;
+}
+
+.alert-red {
+  color: white;
+  background-color: #DA4453;
+}
+.alert-green {
+  color: white;
+  background-color: #37BC9B;
+}
+.alert-blue {
+  color: white;
+  background-color: #4A89DC;
+}
+.alert-yellow {
+  color: white;
+  background-color: #F6BB42;
+}
+.alert-orange {
+  color:white;
+  background-color: #E9573F;
+}
+.padding-2{
+  padding:2rem
+}
+.padding-05{
+  padding: 0.5rem;
+}
+.margin-0{
+  margin:0 !important;
+}
+.vh-100{
+  min-height:100vh;
+}
+.w-100{
+  width: 100%;
+}
+.w-95{
+  width: 95%;
+}
+.w-85{
+  width: 85%;
+}
+.w-75{
+  width: 75%;
+}
+.w-65{
+  width: 65%;
+}
+.w-60{
+  width: 60%;
+}
+.w-50{
+  width: 50%;
+}
+.w-40{
+  width: 40%;
+}
+@media (min-width: 553px) {
+  .w-sm-100{
+      width: 100%;
+  }
+  .w-sm-95{
+      width: 95%;
+  }
+  .w-sm-85{
+      width: 85%;
+  }
+  .w-sm-75{
+      width: 75%;
+  }
+  .w-sm-65{
+      width: 65%;
+  }
+  .w-sm-60{
+      width: 60%;
+  }
+  .w-sm-50{
+      width: 50%;
+  }
+  .w-sm-40{
+      width: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .w-md-100{
+      width: 100%;
+  }
+  .w-md-95{
+      width: 95%;
+  }
+  .w-md-85{
+      width: 85%;
+  }
+  .w-md-75{
+      width: 75%;
+  }
+  .w-md-65{
+      width: 65%;
+  }
+  .w-md-60{
+      width: 60%;
+  }
+  .w-md-50{
+      width: 50%;
+  }
+  .w-md-40{
+      width: 40%;
+  }
+  .md-shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .md-shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+}
+.bg-font{
+  background-image: url("./assets/img/font.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-white{
+  background-color: white;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.box-gastos{
+  min-height: auto;
+  max-height: 83vh;
+  overflow-y: auto;
+}

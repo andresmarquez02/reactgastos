@@ -3,7 +3,10 @@ const ModalReset = () =>{
         localStorage.removeItem("gastos");
         localStorage.removeItem("presupuesto");
         localStorage.removeItem("restante");
-        window.location.href = "/";
+        if(window.location.host === "andresmarquez02.github.io")
+        	window.location.href = "../reactgastos";
+        else
+			window.location.href = "/";
     }
     return (
         <>

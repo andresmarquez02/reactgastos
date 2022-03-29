@@ -46,7 +46,7 @@ const Gasto = ({setRestante,restante,setGastos,gastos}) => {
                     <label className="form-label">Cantidad</label>
                     <input className="form-input"
                     type="text"
-                    placeholder="nombre del producto"
+                    placeholder="Cantidad"
                     name="presupuesto"
                     onChange={(e)=>setUnidades(parseInt(e.target.value))}
                     />

@@ -50,7 +50,7 @@ const App = () => {
                                             </div>
                                         </div>
                                     ) : (
-                                        <div className="mb-2 column col-md-2 col-sm-12">
+                                        <div className="mb-2 column col-md-12 col-lg-2 col-sm-12">
                                             <div className="p-2 bg-white s-rounded">
                                                 <Gasto setGastos={setGastos} gastos={gastos} setRestante={setRestante} restante={restante}
                                                 />
@@ -60,7 +60,7 @@ const App = () => {
                                 }
                                 {
                                     presupuesto > 0 ? (
-                                        <div className="mb-2 column col-md-auto col-sm-12">
+                                        <div className="mb-2 column col-md-12 col-lg-auto col-sm-12">
                                             <div className="p-2 mb-2 bg-white s-rounded box-gastos">
                                                 <Lista presupuesto={presupuesto} restante={restante} restanteClass={restanteClass} gastos={gastos}/>
                                             </div>

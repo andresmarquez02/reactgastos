@@ -21,7 +21,6 @@ const Lista = ({presupuesto,restante,gastos,restanteClass}) => {
                                 <th>Unidades</th>
                                 <th>Precio</th>
                                 <th>Saldo</th>
-                                <th>Fecha</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -34,7 +33,6 @@ const Lista = ({presupuesto,restante,gastos,restanteClass}) => {
                                         <td>{el.unidades}</td>
                                         <td>{el.precio}</td>
                                         <td>{el.restante}</td>
-                                        <td>{el.fecha}</td>
                                     </tr>
                                 )
                             ) :
